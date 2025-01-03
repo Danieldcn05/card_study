@@ -1,0 +1,86 @@
+{
+  "title": "Capitales del Mundo",
+  "bg_color": "lightgray",
+  "cards": [
+    {
+      "question": "España",
+      "answer": "Madrid"
+    },
+    {
+      "question": "Francia",
+      "answer": "París"
+    },
+    {
+      "question": "Italia",
+      "answer": "Roma"
+    },
+    {
+      "question": "Alemania",
+      "answer": "Berlín"
+    },
+    {
+      "question": "Reino Unido",
+      "answer": "Londres"
+    },
+    {
+      "question": "Japón",
+      "answer": "Tokio"
+    },
+    {
+      "question": "China",
+      "answer": "Pekín"
+    },
+    {
+      "question": "Rusia",
+      "answer": "Moscú"
+    },
+    {
+      "question": "Estados Unidos",
+      "answer": "Washington D.C."
+    },
+    {
+      "question": "Canadá",
+      "answer": "Ottawa"
+    },
+    {
+      "question": "México",
+      "answer": "Ciudad de México"
+    },
+    {
+      "question": "Brasil",
+      "answer": "Brasilia"
+    },
+    {
+      "question": "Argentina",
+      "answer": "Buenos Aires"
+    },
+    {
+      "question": "Australia",
+      "answer": "Canberra"
+    },
+    {
+      "question": "India",
+      "answer": "Nueva Delhi"
+    },
+    {
+      "question": "Egipto",
+      "answer": "El Cairo"
+    },
+    {
+      "question": "Sudáfrica",
+      "answer": "Pretoria"
+    },
+    {
+      "question": "Turquía",
+      "answer": "Ankara"
+    },
+    {
+      "question": "Grecia",
+      "answer": "Atenas"
+    },
+    {
+      "question": "Corea del Sur",
+      "answer": "Seúl"
+    }
+  ]
+}

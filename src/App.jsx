@@ -1,15 +1,26 @@
-import { useState } from 'react'
-
-import './App.css'
+import './App.css';
+import CardDisplay from './components/CardDisplay/CardDisplay';
+import collection from './capitals.json';
+import DeckCreator from './components/DeckCreator/DeckCreator';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-     
-    </>
-  )
+    <Router>
+      <div className="App">
+        <nav>
+          <ul>
+            <li><Link to="/">DeckCreator</Link></li>
+            <li><Link to="/cards">Cards</Link></li>
+          </ul>
+        </nav>
+        <Routes>
+          <Route path="/" element={<DeckCreator />} />
+          <Route path="/cards" element={<CardDisplay collection={collection} />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;
