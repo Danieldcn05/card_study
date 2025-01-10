@@ -1,6 +1,5 @@
 import './App.css';
 import CardDisplay from './components/CardDisplay/CardDisplay';
-import collection from './capitals.json';
 import DeckCreator from './components/DeckCreator/DeckCreator';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
@@ -16,7 +15,7 @@ function App() {
         </nav>
         <Routes>
           <Route path="/" element={<DeckCreator />} />
-          <Route path="/cards" element={<CardDisplay collection={collection} />} />
+          <Route path="/cards" element={<CardDisplay/>} />
         </Routes>
       </div>
     </Router>

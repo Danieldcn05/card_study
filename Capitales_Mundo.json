@@ -1,6 +1,7 @@
 {
   "title": "Capitales del Mundo",
-  "bg_color": "lightgray",
+  "bg_color1": "lightgray",
+  "bg_color2": "lightblue",
   "cards": [
     {
       "question": "España",

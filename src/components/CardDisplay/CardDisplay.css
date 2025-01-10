@@ -6,3 +6,12 @@
     gap: 10rem;
     margin-bottom: 10rem;
 }
+
+input{
+    width: 20rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    border: 1px solid #000;
+    
+}

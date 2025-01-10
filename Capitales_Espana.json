@@ -1,0 +1,75 @@
+{
+  "title": "Capitales de España",
+  "bg_color1": "lightgray",
+  "bg_color2": "lightblue",
+  "cards": [
+    {
+      "question": "Andalucía",
+      "answer": "Sevilla"
+    },
+    {
+      "question": "Aragón",
+      "answer": "Zaragoza"
+    },
+    {
+      "question": "Asturias",
+      "answer": "Oviedo"
+    },
+    {
+      "question": "Baleares",
+      "answer": "Palma de Mallorca"
+    },
+    {
+      "question": "Canarias",
+      "answer": "Santa Cruz de Tenerife y Las Palmas de Gran Canaria"
+    },
+    {
+      "question": "Cantabria",
+      "answer": "Santander"
+    },
+    {
+      "question": "Castilla-La Mancha",
+      "answer": "Toledo"
+    },
+    {
+      "question": "Castilla y León",
+      "answer": "Valladolid"
+    },
+    {
+      "question": "Cataluña",
+      "answer": "Barcelona"
+    },
+    {
+      "question": "Extremadura",
+      "answer": "Mérida"
+    },
+    {
+      "question": "Galicia",
+      "answer": "Santiago de Compostela"
+    },
+    {
+      "question": "La Rioja",
+      "answer": "Logroño"
+    },
+    {
+      "question": "Madrid",
+      "answer": "Madrid"
+    },
+    {
+      "question": "Murcia",
+      "answer": "Murcia"
+    },
+    {
+      "question": "Navarra",
+      "answer": "Pamplona"
+    },
+    {
+      "question": "País Vasco",
+      "answer": "Vitoria-Gasteiz"
+    },
+    {
+      "question": "Valencia",
+      "answer": "Valencia"
+    }
+  ]
+}
