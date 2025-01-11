@@ -1,7 +1,11 @@
 {
   "title": "Capitales de España",
-  "bg_color1": "lightgray",
-  "bg_color2": "lightblue",
+  "bg_color1": "white",
+  "bg_color2": "white",
+  "text_color": "black",
+  "border_color": "red",
+  "border_width": 10,
+  "font_family": "Times New Roman",
   "cards": [
     {
       "question": "Andalucía",

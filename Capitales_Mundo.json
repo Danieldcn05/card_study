@@ -2,6 +2,10 @@
   "title": "Capitales del Mundo",
   "bg_color1": "lightgray",
   "bg_color2": "lightblue",
+  "text_color": "black",
+  "border_color": "yellow",
+  "border_width": 5,
+  "font_family": "Arial",
   "cards": [
     {
       "question": "España",
