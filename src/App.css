@@ -1,3 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2E9E4;
+}
+h1, h2, h3{
+    color: #22223B;
+}
 ul{
     list-style-type: none;
     margin: 0;
@@ -6,7 +15,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkcyan;
+    background-color: #4A4E69;
     gap: 5rem;
 }
 

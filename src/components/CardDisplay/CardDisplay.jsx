@@ -29,17 +29,21 @@ const CardDisplay = () => {
 
     return (
         <>
-            <h1>Prueba Cartas</h1>
-            <input type="file" accept=".json" onChange={handleFileChange} />
-            
+            <h1>Card Display</h1>
+            <p>Select a JSON Deck file to open it or go to the Deck Creator to create a new one</p>
+            <div id='file-input'>
+                <input type="file" accept=".json" onChange={handleFileChange} />
+
+            </div>
+
             {collection && (
                 <div className='card-display'>
                     {collection.cards.map((card, index) => (
-                        <Card 
-                            key={index} 
-                            title={collection.title} 
-                            question={card.question} 
-                            answer={card.answer} 
+                        <Card
+                            key={index}
+                            title={collection.title}
+                            question={card.question}
+                            answer={card.answer}
                             bg_color1={collection.bg_color1}
                             bg_color2={collection.bg_color2}
                             text_color={collection.text_color}

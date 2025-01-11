@@ -73,15 +73,15 @@ const DeckCreator = () => {
 
           <div className='cont'>
             <h3>Front Color</h3>
-            <input type="color" value={frontColor} onChange={(e) => setFrontColor(e.target.value)} />
+            <input type="color" className='input-color' value={frontColor} onChange={(e) => setFrontColor(e.target.value)} />
 
             <h3>Back Color</h3>
-            <input type="color" value={backColor} onChange={(e) => setBackColor(e.target.value)} />
+            <input type="color" className='input-color' value={backColor} onChange={(e) => setBackColor(e.target.value)} />
           </div>
 
           <div className='cont'>
             <h3>Text Color</h3>
-            <input type="color" value={textColor} onChange={(e) => setTextColor(e.target.value)} />
+            <input type="color" className='input-color' value={textColor} onChange={(e) => setTextColor(e.target.value)} />
           </div>
 
           <div className='cont'>
@@ -89,7 +89,7 @@ const DeckCreator = () => {
             <input type="number" value={borderWidth} onChange={(e) => setBorderWidth(e.target.value)} />
 
             <h3>Border Color</h3>
-            <input type="color" value={borderColor} onChange={(e) => setBorderColor(e.target.value)} />
+            <input type="color" className='input-color' value={borderColor} onChange={(e) => setBorderColor(e.target.value)} />
           </div>
 
           <div className='cont'>
@@ -107,7 +107,7 @@ const DeckCreator = () => {
 
 
           <h2>Add Cards</h2>
-
+          <p>Click on the question to remove it from the deck.</p>
           <div className='cont'>
             <h3>Question</h3>
             <input

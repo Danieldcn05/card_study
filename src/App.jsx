@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         <nav>
           <ul>
-            <li><Link to="/">DeckCreator</Link></li>
+            <li><Link to="/">Deck Creator</Link></li>
             <li><Link to="/cards">Cards</Link></li>
           </ul>
         </nav>
